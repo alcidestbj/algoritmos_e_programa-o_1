@@ -18,6 +18,6 @@ print(z)
 #item d
 x = 10
 w = (math.sin(math.radians(x)) +
-     math.sin(math.radians(math.pi/2))-
-     math.sin(math.radians (3*math.pi/2)))/(2*math.sin(math.radians(math.pi/6)))
+     math.sin(math.pi/2)-
+     math.sin(3*math.pi/2))/(2*math.sin(math.pi/6))
 print(w)
